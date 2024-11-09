@@ -1,0 +1,35 @@
+p {
+    color: blue;
+ }
+ h2 {
+	color: blue;
+	text-align: center;
+}
+#demo {
+    color: green;
+    text-align: center;
+}
+important {
+    color: red;
+    background-color: black; 
+}
+p.important {
+    color: red;
+    background-color: black; 
+}
+.important {
+	color: red;
+	background-color: black; 
+}
+.fancy {
+	text-shadow: 2px 2px 3px green; 
+}
+* {
+    color: white;
+ }
+ h1, h2, h3, p {
+    color: red;
+ }
+ table, tr, td {
+    border: 2px;
+ }
