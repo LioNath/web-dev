@@ -1,0 +1,131 @@
+.title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.items {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.portrait {
+    width: 260px;
+    height: 350px;
+}
+
+.title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.items {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.landscape {
+    width: 350px;
+    height: 260px;
+}
+
+.title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.items {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.landscape {
+    width: 350px;
+    height: 260px;
+}
+
+.title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.items {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.landscape {
+    width: 350px;
+    height: 260px;
+}
+
+.title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.items {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+}
+.landscape {
+    width: 350px;
+    height: 260px;
+}
+img {
+    border: 20px solid rgb(231, 133, 187);	    
+ }
+ img {
+    border-radius: 8px;	    
+ }
+ img {
+    opacity: 0.5;	    
+ }
+ img:hover {
+    opacity: 1;	    
+ }
+ body{
+    background-image: url("bg.jpg.avif");
+background-size: cover;
+ }
+
+ .item {
+     margin: 10px;
+     background-color: gainsboro;
+     h3, p {
+        text-align: center;
+        padding: 5px;
+        color: steelblue;
+     }
+     
+  }
