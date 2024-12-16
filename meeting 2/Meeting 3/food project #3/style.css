@@ -204,5 +204,83 @@ div.image-about {
 img.about-us {
     width: 300px;
 }
+button {
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  /* Button active effect */
+  button:active {
+    background-color: #003f7f; /* Even darker blue when clicked */
+    transform: scale(0.95); /* Slightly shrink when clicked */
+  }
+  
+  /* Button focus outline */
+  button:focus {
+    outline: 2px solid #80d4ff; /* Light blue focus outline */
+    outline-offset: 2px; /* Space between button and outline */
+  }
+  footer {
+    background-color: rgb(245, 235, 220);
+}
 
- 
+.main-footer { 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer {
+    margin-right: auto; 
+    margin-left: 40px;
+}
+
+.right-footer {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.center-footer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left {
+    color: rgb(219, 84, 75);
+    text-align: left;
+    width: 100%;
+}
+
+.info-right {
+    color: rgb(219, 84, 75);
+    text-align: right;
+    width: 100%;
+}
+
+.info-center {
+    color: rgb(219, 84, 75);
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(146, 168, 133);
+}
+footer {
+    background-image: linear-gradient(rgb(252, 
+    232, 204), rgb(197, 141, 137));
+  }
+  .fa-map-marked-alt, .fa-map-pin, .fa-address-book, .fa-phone-alt, .fa-instagram {
+    margin: 6px;
+    color: rgb(219, 85, 75);
+}
