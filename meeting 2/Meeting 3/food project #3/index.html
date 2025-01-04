@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <a href="aboutpage.html">back to about</a>
@@ -107,27 +111,27 @@
               <tr>
                 <td>burger</td>
                 <td>$25</td>
-                <td><img src="./images/burger.jpg.webp" alt="" width="170" height="190"></td>
+                <td><img src="./images/burger.jpg.webp" alt="" width="260px" height="auto"></td>
               </tr>
               <tr>
                 <td>Chorizzo</td>
                 <td>$20</td>
-                <td><img src="./images/Chorizzo.jpg" alt="" height="170" width="190"></td>
+                <td><img src="./images/Chorizzo.jpg" alt="" height="auto" width="260px"></td>
               </tr>
               <tr>
                 <td>corndog</td>
                 <td>$10</td>
-                <td><img src="./images/Corndog.jpg" alt="" width="170" height="190"></td>
+                <td><img src="./images/Corndog.jpg" alt="" width="260px" height="auto"></td>
               </tr>
               <tr>
                 <td>Main course</td>
                 <td>$35</td>
-                <td><img src="./images/merlin.jpg" alt="" height="170" width="190"></td>
+                <td><img src="./images/merlin.jpg" alt="" height="auto" width="260px"></td>
               </tr>
               <tr>
                 <td>Salmon</td>
                 <td>$45</td>
-                <td><img src="./images/salmon.jpg" alt="" width="170" height="190"></td>
+                <td><img src="./images/salmon.jpg" alt="" width="260px" height="auto"></td>
               </tr>
             </table>
           </section>
@@ -212,6 +216,21 @@
           </div>
         </div>
     </footer>
-   
-</body>
+    <h2 class="red">Hello Programmer</h2>
+    <script language="javascript">
+  var result = document.getElementsByTagName("p")[0].style.color = "green".innerHTML 
+console.log(result) //show in log;
+  var result = document.getElementsByTagName("p")[0].setAttribute("class", "blue").innerHTML 
+console.log(result) //show in log
+var result = document.getElementsByTagName("p")[0].setAttribute("class", "blue").innerHTML 
+console.log(result) //show in log
+var paragraph = document.createElement("P");
+paragraph.innerHTML = "New Paragraph";
+//add it to body HTML
+document.body.appendChild(paragraph);
+paragraph.setAttribute("class", "blue")
+document.body.removeChild(paragraph);
+
+    </script>
+    </body>
 </html>

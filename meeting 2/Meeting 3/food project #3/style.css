@@ -15,8 +15,8 @@ h1, h2, h3, p {
     flex-direction: column;
 }
 .portrait {
-    width: 260px;
-    height: 350px;
+    max-width: 100%;
+   max-height: 350px;
 }
 
 .title {
@@ -284,3 +284,25 @@ footer {
     margin: 6px;
     color: rgb(219, 85, 75);
 }
+
+.dancing script {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+*{
+    font-family: 'Dancing Script', cursive;
+  }
+  @media (max-width: 600px) {
+    * {
+        font-size: 2vw;
+        margin: 2px;
+      }
+  }
+  .red {
+    color:red
+  }
+  .blue {
+    color:aqua
+  }
